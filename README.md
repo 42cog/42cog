@@ -26,7 +26,7 @@
 **方式 1：通过 Homebrew 安装（推荐，仅 macOS）**
 
 ```bash
-brew tap 42cog/tap
+brew tap 42cog/42cog
 brew install 42cog
 42cog --version
 ```
