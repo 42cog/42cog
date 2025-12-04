@@ -3,7 +3,7 @@
 > Cognitive Agile Methodology - 规约驱动开发工具
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/42ailab/42cog-release/releases)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/42ailab/42cog/releases)
 
 ## 概述
 
@@ -26,7 +26,7 @@
 **方式 1：通过 Homebrew 安装（推荐，仅 macOS）**
 
 ```bash
-brew tap 42ailab/tap
+brew tap 42ailab/42cog
 brew install 42cog
 42cog --version
 ```
@@ -35,11 +35,11 @@ brew install 42cog
 
 ```bash
 # macOS (Apple Silicon)
-curl -L https://github.com/42ailab/42cog-release/releases/latest/download/42cog-darwin-arm64.tar.gz | tar xz
+curl -L https://github.com/42ailab/42cog/releases/latest/download/42cog-darwin-arm64.tar.gz | tar xz
 chmod +x 42cog && sudo mv 42cog /usr/local/bin/
 
 # macOS (Intel)
-curl -L https://github.com/42ailab/42cog-release/releases/latest/download/42cog-darwin-x64.tar.gz | tar xz
+curl -L https://github.com/42ailab/42cog/releases/latest/download/42cog-darwin-x64.tar.gz | tar xz
 chmod +x 42cog && sudo mv 42cog /usr/local/bin/
 ```
 
